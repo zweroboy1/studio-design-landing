@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Source Serif Pro", serif;
+  font-size: 100%;
+}
+
+body {
+  color: #323232;
+  line-height: 18px;
+  background: #fff;
+  min-height: 100%;
+  position: relative;
+}
+
+img {
+  border: none;
+}
+
+a {
+  text-decoration: underline;
+  color: #1b52e2;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p,
+div,
+input,
+select,
+textarea,
+li {
+  outline: none;
+}
+
+p {
+  margin: 0 0 15px 0;
+}
+
+input[type="button"]::-moz-focus-inner {
+  border: none;
+}
+
+h2 {
+  color: #1949ca;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 18px;
+}
+
+i {
+  color: #163996;
+}
+
+.header {
+  background-color: aliceblue;
+}
+/*# sourceMappingURL=styles.css.map */
