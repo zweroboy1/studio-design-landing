@@ -1,0 +1,59 @@
+.hero {
+  position: relative;
+  height: 647px;
+  padding-top: 122px;
+
+  &__title {
+    margin-left: -1px;
+  }
+
+  &__text {
+    margin: 39px 0 33px;
+    width: 480px;
+  }
+
+  &__speaker {
+    position: absolute;
+    top: -2px;
+    right: 0;
+    height: 512px;
+    width: 754px;
+    background-image: url("../images/speaker.jpg");
+    z-index: 10;
+  }
+
+  &__circle {
+    position: absolute;
+    top: -2px;
+    right: 688px;
+    width: 129px;
+    height: 129px;
+    background-image: url("../images/ellipse.svg");
+    z-index: 9;
+  }
+
+  &__rectangle {
+    position: absolute;
+    top: 428px;
+    right: 120px;
+    width: 178px;
+    height: 178px;
+    background-image: url("../images/rectangle.svg");
+    z-index: 9;
+  }
+
+  &__button {
+    position: absolute;
+    z-index: 10;
+  }
+
+  &__dotted-rectangle {
+    position: absolute;
+    top: 351px;
+    left: 67px;
+    width: 405px;
+    height: 154px;
+    background-image: url("../images/dots.svg");
+    z-index: 8;
+  }
+}
