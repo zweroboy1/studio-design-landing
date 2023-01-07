@@ -1,0 +1,45 @@
+.testimonials {
+  margin-top: 54px;
+
+  &__header {
+    width: 1198px;
+  }
+  &__title {
+    width: fit-content;
+    margin: 0 auto 17px;
+    padding-right: 1px;
+  }
+
+  &__text {
+    width: fit-content;
+    margin: 0 auto;
+    padding-left: 1px;
+  }
+
+  &__container {
+    display: flex;
+    margin-top: 70px;
+  }
+
+  &__photo {
+    background-color: aquamarine;
+    width: 430px;
+  }
+
+  &__content {
+    //background-color: floralwhite;
+    height: 100px;
+    width: 440px;
+    padding: 129px 5px 10px 23px;
+  }
+
+  &__description {
+    margin: 19px 0 20px;
+  }
+
+  &__carousel {
+    background-color: thistle;
+    //width: auto;
+    flex-grow: 1;
+  }
+}
