@@ -1,0 +1,97 @@
+.subscription {
+  position: relative;
+  margin-top: 104px;
+  height: 493px;
+
+  &__form {
+    position: absolute;
+    top: 155px;
+    left: 212px;
+    z-index: 10;
+  }
+
+  &__container {
+    display: flex;
+  }
+
+  &__description {
+    width: 528px;
+  }
+
+  &__title {
+    margin: 0 0 17px -1px;
+  }
+
+  &__controls {
+    position: relative;
+  }
+
+  &__input {
+    box-sizing: border-box;
+    padding: 30px 205px 30px 34px;
+    margin-top: 7px;
+    height: 80px;
+    width: 479px;
+    background: #ffffff;
+    border: 1px solid #f1f1f1;
+    box-shadow: 10px 20px 50px rgba(0, 0, 0, 0.15);
+    border-radius: 60px;
+    outline: 0;
+
+    &:focus {
+      outline: 1px solid $blueColor;
+    }
+  }
+
+  &__button {
+    position: absolute;
+    top: 17px;
+    right: 10px;
+    padding-left: 39px;
+    padding-right: 40px;
+    font-size: 16px;
+    letter-spacing: 1.04px;
+  }
+
+  &__dotted-rectangle {
+    position: absolute;
+    top: 0;
+    right: 86px;
+    height: 154px;
+    width: 175px;
+    background-image: url("../images/dots.svg");
+    z-index: 3;
+  }
+
+  &__bg {
+    position: absolute;
+    top: 56px;
+    left: 120px;
+    height: 292px;
+    width: 1197px;
+    background-image: url("../images/light-blue-ellipse.svg");
+    z-index: 4;
+  }
+
+  &__input-bg {
+    position: absolute;
+    top: 56px;
+    right: 77px;
+    height: 292px;
+    width: 543px;
+    background-image: url("../images/blue-ellipse.svg");
+    background-repeat: no-repeat;
+    z-index: 5;
+  }
+
+  &__yellow-corner {
+    position: absolute;
+    top: 209px;
+    left: 82px;
+    height: 178px;
+    width: 178px;
+    background-image: url("../images/rectangle.svg");
+    transform: rotate(90deg);
+    z-index: 2;
+  }
+}
