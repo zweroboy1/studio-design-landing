@@ -8,6 +8,7 @@ HTML/CSS landing for design studio
 
 * Figma [template](https://www.figma.com/file/Jr5GG26odwPtDjo3KxLy2O/Studio-Design-Landin-Page-landing); 
 * VSCode; 
+* PixelPerfect; 
 * SCSS; 
 * Flexbox; 
 * BEM.
