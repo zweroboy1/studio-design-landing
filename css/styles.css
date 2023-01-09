@@ -42,6 +42,11 @@ body {
   line-height: 30px;
 }
 
+.h4 {
+  font-size: 20px;
+  line-height: 25px;
+}
+
 .text {
   font-size: 16px;
   line-height: 26px;
@@ -660,6 +665,11 @@ body {
   border-top: 1px solid #e4e4e4;
 }
 
+.footer__upper {
+  display: flex;
+  justify-content: space-between;
+}
+
 .footer__left-container {
   width: 270px;
 }
@@ -681,6 +691,42 @@ body {
   display: flex;
   gap: 16px;
   margin-top: 40px;
+}
+
+.footer__right-container {
+  display: flex;
+  width: 739px;
+  margin-top: 3px;
+}
+
+.footer__links-column:nth-child(1) {
+  margin-right: 120px;
+}
+
+.footer__links-column:nth-child(2) {
+  margin-right: 106px;
+}
+
+.footer__links-column:nth-child(3) {
+  margin-right: 107px;
+}
+
+.footer__link-title {
+  margin-bottom: 27px;
+}
+
+.footer__link-list {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 8px;
+}
+
+.footer__link {
+  font-size: 14px;
+  text-decoration: none;
+  color: inherit;
 }
 
 .footer__bottom {

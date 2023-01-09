@@ -3,6 +3,11 @@
   padding-top: 60px;
   border-top: 1px solid #e4e4e4;
 
+  &__upper {
+    display: flex;
+    justify-content: space-between;
+  }
+
   &__left-container {
     width: 270px;
   }
@@ -24,6 +29,41 @@
     display: flex;
     gap: 16px;
     margin-top: 40px;
+  }
+
+  &__right-container {
+    display: flex;
+    width: 739px;
+    margin-top: 3px;
+  }
+
+  &__links-column {
+    &:nth-child(1) {
+      margin-right: 120px;
+    }
+    &:nth-child(2) {
+      margin-right: 106px;
+    }
+    &:nth-child(3) {
+      margin-right: 107px;
+    }
+  }
+
+  &__link-title {
+    margin-bottom: 27px;
+  }
+
+  &__link-list {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 8px;
+  }
+  &__link {
+    font-size: 14px;
+    text-decoration: none;
+    color: inherit;
   }
 
   &__bottom {
