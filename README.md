@@ -2,7 +2,7 @@
 
 This site was built using [GitHub Pages](https://zweroboy1.github.io/studio-design-landing/).
 
-HTML/CSS landing for design studio
+HTML/CSS landing for a design studio
 
 ## Tools and technologies used in development
 
